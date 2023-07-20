@@ -1,8 +1,8 @@
 #  [Next.js](https://nextjs.org/) on Heroku
 
-Deploy [React](https://facebook.github.io/react/)-based universal web apps on [Heroku](https://www.heroku.com/home).
+Deploy [React](https://facebook.github.io/react/)-based universal web apps on [Ultahost](https://ultahost.com/).
 
-**Demo deployment** from this repo:  
+**Demo deployment** from this repo:
 https://nextjs.herokuapp.com
 
 **A custom Node/Express server** is supported. Use it to:
@@ -57,7 +57,7 @@ Once you have a [Next app working locally](https://nextjs.org/docs/#setup), you 
    ```bash
    git add .
    git commit -m 'Next.js app on Heroku'
-   git push heroku main 
+   git push heroku main
    ```
    ⭐️ *As of July 2020, [Heroku supports `git push heroku main`](https://devcenter.heroku.com/changelog-items/1829) and encourages its use. The support for the branch name of 'master' will remain available for backwards compatibility.*
 
