@@ -1,0 +1,33 @@
+{
+  "name": "ultahost-nextjs",
+  "version": "2.0.0",
+  "description": "Deploy Next.js server-side React apps to Ultahost",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdulazizahwan/ultahost-nextjs.git"
+  },
+  "keywords": [
+    "react",
+    "ssr",
+    "server-side-rendering"
+  ],
+  "author": "Mars Hall",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abdulazizahwan/ultahost-nextjs/issues"
+  },
+  "homepage": "https://github.com/abdulazizahwan/ultahost-nextjs",
+  "dependencies": {
+    "next": "^13.4.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
