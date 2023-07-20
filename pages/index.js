@@ -1,6 +1,6 @@
-import React from 'react'
-import Head from 'next/head'
-import Logo from '../components/logo'
+import React from 'react';
+import Head from 'next/head';
+import Favicon from '../components/Favicon';
 
 export default () => (
     <div className="root">
@@ -9,6 +9,7 @@ export default () => (
             <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
             <meta name="viewport" content="width=device-width, initial-scale=1" />
             <title>Next.js on Ultahost</title>
+            <Favicon />
         </Head>
         <style jsx>{`
       .root {
@@ -24,7 +25,7 @@ export default () => (
     `}</style>
 
         <img src="/img/nextjs-logo.png" style={{ width: '10rem' }} alt="Next.js logo" />
-        <h1 style={{fontSize: '8vw'}}>Next.js on Ultahost</h1>
+        <h1 style={{ fontSize: '8vw' }}>Next.js on Ultahost</h1>
 
         <p>Deploy <a href="https://nextjs.org/">Next.js</a> universal web apps on <a href="https://ultahost.com/">Ultahost VPS Server</a>.</p>
 
