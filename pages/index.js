@@ -13,8 +13,7 @@ export default () => (
         <style jsx>{`
       .root {
         font-family: sans-serif;
-        line-height: 1.33rem;
-        margin-top: 8vh;
+        margin: 8vh 4vw 0;
       }
       @media (min-width: 600px) {
         .root {
@@ -25,7 +24,7 @@ export default () => (
     `}</style>
 
         <img src="/img/nextjs-logo.png" style={{ width: '10rem' }} alt="Next.js logo" />
-        <h1>Next.js on Ultahost</h1>
+        <h1 style={{fontSize: '8vw'}}>Next.js on Ultahost</h1>
 
         <p>Deploy <a href="https://nextjs.org/">Next.js</a> universal web apps on <a href="https://ultahost.com/">Ultahost VPS Server</a>.</p>
 
